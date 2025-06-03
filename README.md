@@ -70,7 +70,7 @@ http://localhost:8080/swagger-ui/index.html
 CREATE TABLE conta (
     conta INT AUTO_INCREMENT PRIMARY KEY, 
     agencia INT NOT NULL,                  
-    titular VARCHAR(100) NOT NULL,         
+    titular VARCHAR(50) NOT NULL,         
     saldo DECIMAL(10,2) NOT NULL  
 );
 ```
