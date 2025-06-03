@@ -43,7 +43,7 @@ src/
 ## 🚀 Executando o Projeto
 Clone o repositório:
 
-```git clone https://github.com/seu-usuario/nome-do-projeto.git```
+```git clone https://github.com/Emanuel-Lira/WebService-Java.git```
 
 - Abra em sua IDE (IntelliJ, VS Code, etc.)
 
