@@ -25,21 +25,6 @@ Este é um projeto de exemplo desenvolvido em Java usando **Spring Boot**, com i
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-src/
-└── main/
-├── java/
-│ └── com.emanuelbanco.atendimento/
-│ ├── conta/
-│ │ ├── ContaController.java
-│ │ ├── ContaService.java
-│ │ ├── ContaRepository.java
-│ │ └── Conta.java
-│ └── AtendimentoApplication.java
-└── resources/
-└── application.properties
-
 ## 🚀 Executando o Projeto
 Clone o repositório:
 
@@ -50,6 +35,8 @@ Clone o repositório:
 - Execute a classe AtendimentoApplication.java
 
 - Acesse o Swagger para testar os endpoints:``` http://localhost:8080/swagger-ui/index.html```
+  
+--- 
 
 ## 📦 Exemplos de Requisições
 - Criar Conta (POST /contas)
@@ -60,6 +47,10 @@ Clone o repositório:
   "saldo": 2500.0
 }
 ```
+  
+--- 
+
+
 ## 👨‍🎓 Sobre
 - Este projeto foi desenvolvido como atividade acadêmica para praticar os conceitos de:
 
