@@ -28,13 +28,18 @@ Este é um projeto de exemplo desenvolvido em Java usando **Spring Boot**, com i
 ## 🚀 Executando o Projeto
 Clone o repositório:
 
-```git clone https://github.com/Emanuel-Lira/WebService-Java.git```
+```
+git clone https://github.com/Emanuel-Lira/WebService-Java.git
+```
 
 - Abra em sua IDE (IntelliJ, VS Code, etc.)
 
 - Execute a classe AtendimentoApplication.java
 
-- Acesse o Swagger para testar os endpoints:``` http://localhost:8080/swagger-ui/index.html```
+- Acesse o Swagger para testar os endpoints:
+ ```
+http://localhost:8080/swagger-ui/index.html
+  ```
   
 --- 
 
@@ -60,4 +65,13 @@ Clone o repositório:
 
 - Boas práticas com Spring Boot
 
+## 🗄️ Estrutura do Banco de Dados
+```
+CREATE TABLE conta (
+    conta INT AUTO_INCREMENT PRIMARY KEY, 
+    agencia INT NOT NULL,                  
+    titular VARCHAR(100) NOT NULL,         
+    saldo DECIMAL(10,2) NOT NULL  
+);
+```
 
